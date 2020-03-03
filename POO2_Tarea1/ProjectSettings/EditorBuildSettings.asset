@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/LoadLevel.unity
+    guid: a21939f8467587b4ca590a1608669be5
+  - enabled: 1
+    path: Assets/Scenes/ChangeColorOscillatorScene.unity
+    guid: 65f359c1a099f2e449f4c7a05a421a0a
+  - enabled: 1
+    path: Assets/Scenes/Color.unity
+    guid: 50cabe6c4abf7834b8d2f5b491cfcd80
+  - enabled: 1
+    path: Assets/Scenes/GravityScene.unity
+    guid: 33de1e28f9e73914c8073f5f17b36e02
+  - enabled: 1
+    path: Assets/Scenes/MapGenerator.unity
+    guid: 1664d778713122d40985f4b4ee9666be
+  - enabled: 1
+    path: Assets/Scenes/Rewind.unity
+    guid: 0b35979d81120a841ac8608473a844b2
+  - enabled: 1
+    path: Assets/Scenes/TextScene.unity
+    guid: ed71cf26f20e1fb45a8b5f128af659bc
+  m_configObjects: {}
