@@ -528,42 +528,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650706222}
   m_CullTransparentMesh: 0
---- !u!1 &700350601 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3196786194898689583, guid: f04fc3a9c47cb304aac8bf5778ceff90,
-    type: 3}
-  m_PrefabInstance: {fileID: 3196786194713010135}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &700350602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 700350601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -745406591, guid: 220224b43fc464c28bc0e8de8f54a432, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Trigger:
-    m_IsTriggerExpanded: 1
-    m_Type: 0
-    m_LifecycleEvent: 0
-    m_ApplyRules: 0
-    m_Rules:
-      m_Rules: []
-    m_TriggerBool: 0
-    m_InitTime: 5
-    m_RepeatTime: 5
-    m_Repetitions: 0
-    repetitionCount: 0
-  m_EventPayload:
-    m_IsEventExpanded: 1
-    m_StandardEventType: CustomEvent
-    m_Parameters:
-      m_Parameters: []
-    m_Name: Level1
 --- !u!1 &753262096
 GameObject:
   m_ObjectHideFlags: 0
@@ -644,7 +608,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 3196786194713010135}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 700350601}
+  m_GameObject: {fileID: 3196786194713010136}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 053634fead4619b4a8050590d2aa1e87, type: 3}
@@ -993,6 +957,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f04fc3a9c47cb304aac8bf5778ceff90, type: 3}
+--- !u!1 &3196786194713010136 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3196786194898689583, guid: f04fc3a9c47cb304aac8bf5778ceff90,
+    type: 3}
+  m_PrefabInstance: {fileID: 3196786194713010135}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3196786194713010137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196786194713010136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -745406591, guid: 220224b43fc464c28bc0e8de8f54a432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Trigger:
+    m_IsTriggerExpanded: 1
+    m_Type: 0
+    m_LifecycleEvent: 0
+    m_ApplyRules: 0
+    m_Rules:
+      m_Rules: []
+    m_TriggerBool: 0
+    m_InitTime: 5
+    m_RepeatTime: 5
+    m_Repetitions: 0
+    repetitionCount: 0
+  m_EventPayload:
+    m_IsEventExpanded: 1
+    m_StandardEventType: CustomEvent
+    m_Parameters:
+      m_Parameters: []
+    m_Name: Level3
 --- !u!1001 &5126204472752730209
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1115,5 +1115,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 930267641}
+    - target: {fileID: 5126204472075512821, guid: 70ed5b4452c7f074aa6dfbf378729146,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70ed5b4452c7f074aa6dfbf378729146, type: 3}

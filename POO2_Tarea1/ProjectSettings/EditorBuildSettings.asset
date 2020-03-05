@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/LoadLevel.unity
     guid: a21939f8467587b4ca590a1608669be5
   - enabled: 1
+    path: Assets/Scenes/LoadLevelAnal.unity
+    guid: e2b71c9f41896534cb3a84b15261d871
+  - enabled: 1
+    path: Assets/Scenes/LoadLevelAnal2.unity
+    guid: 1d62200afbde6f540a1b9baeb5780243
+  - enabled: 1
     path: Assets/Scenes/ChangeColorOscillatorScene.unity
     guid: 65f359c1a099f2e449f4c7a05a421a0a
   - enabled: 1
